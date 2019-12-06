@@ -1,16 +1,18 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
+import './App.css'
+import Header from './global/header/Header';
+import Footer from './global/footer/Footer';
 class App extends Component {
 
-    render() { 
+    render() {
         return (
             <div>
-                <p>ey</p>
+                <Header></Header>
                 {this.props.children}
-                <p>chay</p>
+                <Footer></Footer>
             </div>
-         );
+        );
     }
 }
- 
+
 export default App;
