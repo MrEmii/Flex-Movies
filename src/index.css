@@ -10,8 +10,11 @@ body {
 }
 
 :root{
-  --headerHeight: 80px;
-  --footerHeight: 80px;
+  --headerHeight: 100px;
+  --footerHeight: 50px;
+  
+  --black-color: #070606;
+  --switch-color: #474554;
 }
 
 * {
@@ -30,4 +33,5 @@ body {
   width: 100%;
   min-height: 100%;
   position: relative;
+  background: var(--black-color);
 }
