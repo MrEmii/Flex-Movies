@@ -6,11 +6,11 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <Header></Header>
                 {this.props.children}
                 <Footer></Footer>
-            </div>
+            </React.Fragment>
         );
     }
 }

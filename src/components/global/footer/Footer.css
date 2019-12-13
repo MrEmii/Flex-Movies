@@ -1,2 +1,3 @@
-.FooterWrapper{
+header{
+    height: var(--footerHeight);
 }
